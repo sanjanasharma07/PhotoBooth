@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001233;
+  color: white;
+  font-family:cursive;
+}
+
+.boothContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#video {
+  height: 400px;
+  width: 650px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(39, 38, 38,0.5);
+  margin-top: 20px;
+  position: relative;
+}
+
+.countDown {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+}
+#canvas {
+  display: none;
+  /* position: absolute; */
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.filterOpt {
+  display: flex;
+  width: 650px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.filter {
+  height: 30px;
+  width: 100px;
+  background-color: #33415c;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#snap {
+  height: 35px;
+  width: 100px;
+  background-color: #d00000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.photosCol {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  /* background-color: black; */
+  /* height: auto; */
+  margin: 40px 20px 20px 20px;
+  
+}
+.allpic {
+  position: relative;
+
+}
+#downBtn {
+  position: absolute;
+  bottom: 17%;
+  left: 27.5%;
+  background-color: #d00000;
+  color: white;
+  height: 20px;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.image {
+  height: 150px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+

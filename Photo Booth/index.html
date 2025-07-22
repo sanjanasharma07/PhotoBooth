@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Photo Booth</title>
+</head>
+<body>
+
+  <div class="boothContainer">
+    <h1>Photo Booth</h1>
+    <video id="video" autoplay></video>
+    <div class="countDown"></div>
+    <div class="canva">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="controls">
+      <div class="filterOpt">
+        <div class="filter" data-filter="blur(3px)">Blur</div>
+        <div class="filter" data-filter="brightness(150%)">Brightness</div>
+        <div class="filter" data-filter="contrast(200%)">Contrast</div>
+        <div class="filter" data-filter="grayscale(100%)">Grayscale</div>
+        <div class="filter" data-filter="sepia(100%)">Sepia</div>
+        <button id="snap">Take Snap</button>
+      </div>
+    </div>
+    <div class="photosCol" id="photosCol">
+      <!-- Images will appear here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
